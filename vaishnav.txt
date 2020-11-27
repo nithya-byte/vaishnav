@@ -1,0 +1,42 @@
+Install expo-Client using node.js.
+
+1. To install node.js in mac, Homebrew package must be installed first.
+
+For Mac users:
+1. Install homebrew first.
+Homebrew is a package
+manager for your operating
+system. It helps you in easily
+installing programs from the
+terminal.
+To install homebrew, open
+your terminal and type:
+/bin/bash -c "$(curl -fsSL
+https://raw.githubusercontent.c
+om/Homebrew/install/master/install.sh)"
+Note: You might have to add
+"sudo" before the command if
+you do not have permission to
+install packages on your OS.
+"sudo" stands for "do as a
+super user". You might have to
+run:
+sudo /bin/bash -c “$(curl -fsSL
+https://raw.githubsercontent.co
+m/Homebrew/install/master/install.sh)” /bin/
+© 2019 - WhiteHat Education Technology Private Limited.
+Note: This document is the original copyright of WhiteHat Education Technology Private Limited.
+Please don't share, download or copy this file without permission.
+8
+2. Now install node. On your
+terminal type:
+sudo brew install node
+3. Check if node is installed on
+your system by typing in the
+terminal:
+node --version.
+
+
+After node.js is installed, install expo -client using node.js
+
+1. sudo npm install expo-cli --global
